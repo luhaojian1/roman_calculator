@@ -61,3 +61,8 @@ AC8:
 given: number1 (X), number2 (XXXIX)
 when: calculate
 then: XLIX
+
+AC8:
+given: number1 (LV), number2 (XXXIX)
+when: calculate
+then: XCIV
