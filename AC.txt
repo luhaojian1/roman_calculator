@@ -27,4 +27,7 @@ given: number1 (I), number2 (I)
 when: calculate
 then: II
 
-
+AC2:
+given: number1 (I), number2 (II)
+when: calculate
+then: III

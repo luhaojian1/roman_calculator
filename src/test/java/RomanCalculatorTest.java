@@ -15,5 +15,15 @@ class RomanCalculatorTest {
     assertEquals("II", result);
   }
 
+  @Test
+  void should_return_III_when_calculate_given_number1_I_number2_II() {
+    String firstNumeral = "I";
+    String secondNumeral = "II";
+
+    RomanCalculator romanCalculator = new RomanCalculator();
+    String result = romanCalculator.calculate(firstNumeral, secondNumeral);
+
+    assertEquals("III", result);
+  }
 
 }
