@@ -46,3 +46,13 @@ AC5:
 given: number1 (IV), number2 (V)
 when: calculate
 then: IX
+
+AC6:
+given: number1 (XIII), number2 (XV)
+when: calculate
+then: XXVIII
+
+AC7:
+given: number1 (XXXIV), number2 (XXXIX)
+when: calculate
+then: LXXIII

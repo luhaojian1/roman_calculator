@@ -59,4 +59,26 @@ class RomanCalculatorTest {
     assertEquals("IX", result);
   }
 
+  @Test
+  void should_return_XXVIII_when_calculate_given_number1_XIII_number2_XV() {
+    String firstNumeral = "XIII";
+    String secondNumeral = "XV";
+
+    RomanCalculator romanCalculator = new RomanCalculator();
+    String result = romanCalculator.calculate(firstNumeral, secondNumeral);
+
+    assertEquals("XXVIII", result);
+  }
+
+  @Test
+  void should_return_LXXIII_when_calculate_given_number1_XXXIV_number2_XXXIX() {
+    String firstNumeral = "XXXIV";
+    String secondNumeral = "XXXIX";
+
+    RomanCalculator romanCalculator = new RomanCalculator();
+    String result = romanCalculator.calculate(firstNumeral, secondNumeral);
+
+    assertEquals("LXXIII", result);
+  }
+
 }
