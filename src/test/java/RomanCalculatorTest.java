@@ -48,4 +48,15 @@ class RomanCalculatorTest {
     assertEquals("VIII", result);
   }
 
+  @Test
+  void should_return_IX_when_calculate_given_number1_IV_number2_V() {
+    String firstNumeral = "IV";
+    String secondNumeral = "V";
+
+    RomanCalculator romanCalculator = new RomanCalculator();
+    String result = romanCalculator.calculate(firstNumeral, secondNumeral);
+
+    assertEquals("IX", result);
+  }
+
 }

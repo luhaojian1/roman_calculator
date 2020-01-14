@@ -41,3 +41,8 @@ AC4:
 given: number1 (IV), number2 (IV)
 when: calculate
 then: VIII
+
+AC5:
+given: number1 (IV), number2 (V)
+when: calculate
+then: IX
