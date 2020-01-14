@@ -36,3 +36,8 @@ AC3:
 given: number1 (I), number2 (III)
 when: calculate
 then: IV
+
+AC4:
+given: number1 (IV), number2 (IV)
+when: calculate
+then: VIII
