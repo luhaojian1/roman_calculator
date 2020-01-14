@@ -62,7 +62,12 @@ given: number1 (X), number2 (XXXIX)
 when: calculate
 then: XLIX
 
-AC8:
+AC9:
 given: number1 (LV), number2 (XXXIX)
 when: calculate
 then: XCIV
+
+AC10:
+given: number1 (XLIV), number2 (CDV)
+when: calculate
+then: CDXLIX
