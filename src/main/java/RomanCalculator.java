@@ -5,8 +5,8 @@ import util.RomanNumbersUtil;
 
 class RomanCalculator {
 
-  private final List<String> romanNumbers = Arrays.asList("L", "X", "IX", "V", "IV", "I");
-  private final List<Integer> numbers = Arrays.asList(50, 10, 9, 5, 4, 1);
+  private final List<String> romanNumbers = Arrays.asList("L", "XL", "X", "IX", "V", "IV", "I");
+  private final List<Integer> numbers = Arrays.asList(50, 40, 10, 9, 5, 4, 1);
   private final Map<Character, Integer> baseRomanNumbers = RomanNumbersUtil.getBaseRomanNumbers();
 
   String calculate(String firstRomanNumber, String secondRomanNumber) {
