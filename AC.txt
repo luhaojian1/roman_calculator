@@ -21,38 +21,10 @@ As we are in Rome there is no such thing as decimals or int, we need to do this 
 
 
 AC:
+
 AC1:
-As a user
-I want to add two roman numbers and each of one only has one roman number
-so that the calculator can calculate it automatically get the correct roman number result.
+given: number1 (I), number2 (I)
+when: calculate
+then: II
 
 
-AC2:
-As a user
-I want the roman numerals can be concatenated
-so that the these numbers can form to a larger number.
-
-AC3:
-As a user
-I want if a lesser numeral is put before a bigger in the roman number
-so that the result of roman number is the subtraction of the lesser from the bigger .
-
-AC4:
-As a user
-I want if the numeral is I, X or C and the input roman number have more than these three numerals
-so that the calculator can not get the result.
-
-AC5:
-As a user
-I want 	If the numeral is V, L or D and the input roman number have more than one numeral
-so that the calculator can not get the result.
-
-AC6:
-As a user
-I want if the numeral is I, X or C, the input roman number have more than three numerals
-so that the calculator can not get the result.
-
-AC7:
-As a user
-I want if the sum of the input roman number is more than M
-so that the calculator can not get the result.
