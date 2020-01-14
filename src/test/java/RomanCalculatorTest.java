@@ -114,4 +114,15 @@ class RomanCalculatorTest {
     assertEquals("CDXLIX", result);
   }
 
+  @Test
+  void should_return_CMXCIV_when_calculate_given_number1_CDXCIV_number2_D() {
+    String firstNumeral = "CDXCIV";
+    String secondNumeral = "D";
+
+    RomanCalculator romanCalculator = new RomanCalculator();
+    String result = romanCalculator.calculate(firstNumeral, secondNumeral);
+
+    assertEquals("CMXCIV", result);
+  }
+
 }

@@ -71,3 +71,8 @@ AC10:
 given: number1 (XLIV), number2 (CDV)
 when: calculate
 then: CDXLIX
+
+AC11:
+given: number1 (CDXCIV), number2 (D)  // 494 500
+when: calculate
+then: CMXCIV  // 994
