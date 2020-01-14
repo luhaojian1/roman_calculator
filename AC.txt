@@ -56,3 +56,8 @@ AC7:
 given: number1 (XXXIV), number2 (XXXIX)
 when: calculate
 then: LXXIII
+
+AC8:
+given: number1 (X), number2 (XXXIX)
+when: calculate
+then: XLIX

@@ -81,4 +81,15 @@ class RomanCalculatorTest {
     assertEquals("LXXIII", result);
   }
 
+  @Test
+  void should_return_XLIX_when_calculate_given_number1_X_number2_XXXIX() {
+    String firstNumeral = "X";
+    String secondNumeral = "XXXIX";
+
+    RomanCalculator romanCalculator = new RomanCalculator();
+    String result = romanCalculator.calculate(firstNumeral, secondNumeral);
+
+    assertEquals("XLIX", result);
+  }
+
 }
