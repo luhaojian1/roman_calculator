@@ -9,10 +9,13 @@ class RomanCalculator {
   private final List<Integer> numbers = Arrays.asList(1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1);
   private final Map<Character, Integer> baseRomanNumbers = RomanNumbersUtil.getBaseRomanNumbers();
 
-  String calculate(String firstRomanNumber, String secondRomanNumber) {
+  String calculate(String firstRomanNumber, String secondRomanNumber) throws RomanNumberTooLargeException {
 
     int firstNumber = getNumber(firstRomanNumber);
     int secondNumber = getNumber(secondRomanNumber);
+    if (firstNumber > 1000 || secondNumber > 1000) {
+      throw new RomanNumberTooLargeException();
+    }
 
     int sum = firstNumber + secondNumber;
 
@@ -55,6 +58,5 @@ class RomanCalculator {
   private int mapToNumber(char romanNumber) {
     return baseRomanNumbers.get(romanNumber);
   }
-
 
 }

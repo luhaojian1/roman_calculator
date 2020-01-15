@@ -76,3 +76,8 @@ AC11:
 given: number1 (CDXCIV), number2 (D)  // 494 500
 when: calculate
 then: CMXCIV  // 994
+
+AC12:
+given: number1 (MX), number2 (C)  // 1010 100
+when: calculate
+then: The roman number is too large.
